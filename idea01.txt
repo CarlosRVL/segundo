@@ -1,2 +1,4 @@
 Tras crear una rama nueva (revision) añado este nuevo fichero. 
 
+Modifico este fichero y otro que está en github, con objetivo de crear conflicto al hacer push. 
+
