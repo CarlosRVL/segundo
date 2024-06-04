@@ -9,7 +9,7 @@ class elcoso:
     Haremos algo y devoleremos algún resultado.
     """
     
-    def __init__(selt) -> None:
+    def __init__(self) -> None:
         """Constructor.
         Pues eso.
         """
