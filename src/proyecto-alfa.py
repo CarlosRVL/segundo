@@ -8,3 +8,29 @@ Utilizaremos un fichero a parte para los mensajes de comunicación con el
 usuario
 Utilizaremos un fichero de configuracion
 """
+import argparse  # Manejo de argumentos en linea de comandos
+
+
+def main():
+    """
+    Funcion principal
+    Tratamiento de la entrada de parametros de ejecución y ejecución secuencial.
+    """
+    parser = argparse.ArgumentParser()
+    parser = argparse.ArgumentParser(description='%(prog)s : Hacer cosas...')
+    parser.add_argument("-v", "--verbose", help="Mostrar información de depuración", action="store_true")
+    parser.add_argument("-t", "--testnet", help="Ejecución en modo test", action="store_true")
+    parser.add_argument("-p", "--payfile", help="Nombre del archivo en el que guardar las direcciones de pago.")
+    parser.add_argument("cadena", help="Cadena de entrada para procesar")
+    argumento = parser.parse_args()
+    cadena=argumento.entropia
+    TESTNET=argumento.testnet
+    MAINNET=not argumento.testnet
+    if argumento.verbose:
+        VERBOSE = True
+        print("Verbose signigica que se da más información.")
+
+
+### Llamar a funcion principal.###
+if __name__ == "__main__":
+    main()
