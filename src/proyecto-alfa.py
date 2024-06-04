@@ -10,6 +10,7 @@ Utilizaremos un fichero de configuracion
 """
 import argparse  # Manejo de argumentos en linea de comandos
 
+import coso
 
 def main():
     """
@@ -30,7 +31,9 @@ def main():
         VERBOSE = True
         print("Verbose signigica que se da más información.")
 
-
+    lacosa = elcoso()
+    lacosa.print_fecha_creacion()
+    
 ### Llamar a funcion principal.###
 if __name__ == "__main__":
     main()
