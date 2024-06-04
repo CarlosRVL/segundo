@@ -31,7 +31,7 @@ def main():
         VERBOSE = True
         print("Verbose signigica que se da más información.")
 
-    lacosa = coso.elcoso()
+    lacosa = elcoso()
     lacosa.print_fecha_creacion()
     
 ### Llamar a funcion principal.###
