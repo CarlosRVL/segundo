@@ -10,7 +10,7 @@ Utilizaremos un fichero de configuracion
 """
 import argparse  # Manejo de argumentos en linea de comandos
 
-import libsegundo.coso
+from libsegundo.coso import elcoso
 
 def main():
     """
