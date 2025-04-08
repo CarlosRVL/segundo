@@ -1,5 +1,5 @@
 """
-Una clase
+Una clase.
 """
 import time
 import datetime
